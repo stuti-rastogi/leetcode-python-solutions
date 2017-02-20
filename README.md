@@ -4,4 +4,4 @@ Solutions to the LeetCode problems I have attempted. I attempt to solve problems
 
 | Problem No. | Title  | Solution  | Difficulty  | Companies |
 |---|---|---|---|---|
-| 461  | Hamming Distance  |   | Easy  | - |
+| 461  | [Hamming Distance] https://leetcode.com/problems/hamming-distance/?tab=Description |  [C++] https://github.com/stuti-rastogi/leetcodesolutions/tree/master/hammingDistance , [Java] https://github.com/stuti-rastogi/leetcodesolutions/tree/master/hammingDistance | Easy  | - |
