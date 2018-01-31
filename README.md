@@ -1,7 +1,8 @@
-##Leet Code Solutions**
+##Leet Code Solutions
 
-Solving problems from Leetcode, mainly in Python. Started with the top Interview questions
+Solving problems from [Leetcode](www.leetcode.com), mainly in Python. Started with the top Interview questions, sorted from difficulty Easy to Hard.
 
+##Top Interview Questions
 
 | Sr. No. | Problem No. | Title  | Solution  | Difficulty  | Companies |
 | ----- | ----- | ----- | ----- | ----- | ----- |
