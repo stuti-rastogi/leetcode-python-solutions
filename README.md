@@ -1,4 +1,4 @@
-#Leet Code Solutions
+**Leet Code Solutions**
 
 Solving problems from Leetcode, mainly in Python. Started with the top Interview questions
 
