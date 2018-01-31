@@ -1,6 +1,6 @@
 # Leet Code Solutions
 
-Solving problems from [Leetcode](www.leetcode.com), mainly in Python. Started with the top Interview questions, sorted from difficulty Easy to Hard.
+Solving problems from [Leetcode](https://leetcode.com/), mainly in Python. Started with the top Interview questions, sorted from difficulty Easy to Hard.
 
 # Top Interview Questions
 
