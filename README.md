@@ -1,4 +1,4 @@
-**Leet Code Solutions**
+##Leet Code Solutions**
 
 Solving problems from Leetcode, mainly in Python. Started with the top Interview questions
 
@@ -18,4 +18,7 @@ Solving problems from Leetcode, mainly in Python. Started with the top Interview
 | 11 | 387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/description/) |  [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/387_firstUniqueCharInStr.py)| Easy | - |
 | 12 | 237 | [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/description/) |  [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/237_deleteLinkedListNode.py)| Easy | Microsoft, Apple, Adobe |
 | 13 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/description/) |  [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/242_validAnagram.py)| Easy | Uber, Amazon, Yelp |
+| 14 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/) |  [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/217_containsDuplicate.py)| Easy | Palantir, AirBnB, Yahoo |
+| 15 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/) |  [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/206_reverseLinkedList.py)| Easy | Uber, Facebook, Twitter, Zenefit, Amazon, Microsoft, Snapchat, Apple, Yahoo, Bloomberg, Yelp, Adobe |
+| 16 | 350 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays-ii/description/) |  [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/350_intersectionOfTwoArrays2.py)| Easy | - |
 
