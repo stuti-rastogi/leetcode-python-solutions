@@ -26,5 +26,5 @@ Solving problems from [Leetcode](https://leetcode.com/), mainly in Python. Start
 | 18 | 108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/108_sortedArrayToBST.py)| Easy | AirBnb |
 | 19 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/121_buySellStock1.py)| Easy | Uber, Facebook, Amazon, Microsoft, Bloomberg |
 | 20 | 202 | [Happy Number](https://leetcode.com/problems/happy-number/description/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/202_happyNumber.py)| Easy | Uber, AirBnb, Twitter |
-| 21 | 070 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/070_climbingStairs.py)| Easy | Apple, Adobe,  |
-
+| 21 | 070 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/070_climbingStairs.py)| Easy | Apple, Adobe |
+| 22 | 326 | [Power of Three](https://leetcode.com/problems/power-of-three/description/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/326_powerOfThree.py)| Easy | Google |
