@@ -80,3 +80,4 @@ Solving problems from [Leetcode](https://leetcode.com/), mainly in Python. Start
 72 | 279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/description) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/279_perfectSquares.py)| Medium | Google |
 73 | 036 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/036_validSudoku.py)| Medium | Uber, Apple, Snapchat |
 74 | 289 | [Game of Life](https://leetcode.com/problems/game-of-life/description/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/289_gameOfLife.py)| Medium | Google, Snapchat |
+75 | 011 | [Container with Most Water](https://leetcode.com/problems/container-with-most-water/description/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/011_mostWaterContainer.py)| Medium | Bloomberg |
