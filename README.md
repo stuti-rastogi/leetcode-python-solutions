@@ -87,3 +87,5 @@ Solving problems from [Leetcode](https://leetcode.com/), mainly in Python. Start
 79 | 617 | [Merge two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/description/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/617_mergeTwoBinaryTrees.py)| Easy | Amazon |
 80 | 513 | [Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/description/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/513_bottomLeftTreeValue.py)| Medium | Microsoft |
 81 | 500 | [Keyboard Row](https://leetcode.com/problems/keyboard-row/description/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/500_keyboardRow.py)| Easy | - |
+82 | 496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/description/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/496_nextGreaterElement1.py)| Easy | - |
+83 | 485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/description/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/485_maxConsecutiveOnes.py)| Easy | Google |
