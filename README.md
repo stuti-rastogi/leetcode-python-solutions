@@ -94,3 +94,5 @@ Solving problems from [Leetcode](https://leetcode.com/), mainly in Python. The p
 86 | 292 | [Nim Game](https://leetcode.com/problems/nim-game/description/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/292_nimGame.py)| Easy | Adobe |
 87 | 476 | [Number Complement](https://leetcode.com/problems/number-complement/description/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/476_numberComplement.py)| Easy | - |
 88 | 463 | [Island Perimeter](https://leetcode.com/problems/island-perimeter/description/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/463_islandPerimeter.py)| Easy | Google |
+89 | 079 | [Word Search](https://leetcode.com/problems/word-search/description/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/079_wordSearch.py)| Medium | Facebook, Microsoft, Bloomberg |
+90 | 152 | [Maximum Product Subrray](https://leetcode.com/problems/maximum-product-subarray/description/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/152_maxProductSubArray.py)| Medium | LinkedIn |
