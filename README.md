@@ -1,6 +1,6 @@
 # Leet Code Solutions
 
-Solving problems from [Leetcode](https://leetcode.com/), mainly in Python. Started with the top Interview questions, sorted from difficulty Easy to Hard.
+Solving problems from [Leetcode](https://leetcode.com/), mainly in Python. The problem descriptions and my solutions are linked in the following table:
 
 # Top Interview Questions
 
@@ -92,5 +92,5 @@ Solving problems from [Leetcode](https://leetcode.com/), mainly in Python. Start
 84 | 669 | [Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/description/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/669_trimBST.py)| Easy | Bloomberg |
 85 | 461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance/description/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/461_hammingDistance.py)| Easy | Facebook |
 86 | 292 | [Nim Game](https://leetcode.com/problems/nim-game/description/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/292_nimGame.py)| Easy | Adobe |
-87 | 476 | [Number Complement](https://leetcode.com/problems/number-complement/description/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/476_numberComplement.py)| Easy | Adobe |
-88 | 463 | [Island Perimeter](https://leetcode.com/problems/island-perimeter/description/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/463_islandPerimeter.py)| Easy | Adobe |
+87 | 476 | [Number Complement](https://leetcode.com/problems/number-complement/description/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/476_numberComplement.py)| Easy | - |
+88 | 463 | [Island Perimeter](https://leetcode.com/problems/island-perimeter/description/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/463_islandPerimeter.py)| Easy | Google |
