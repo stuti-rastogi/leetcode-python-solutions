@@ -89,3 +89,8 @@ Solving problems from [Leetcode](https://leetcode.com/), mainly in Python. Start
 81 | 500 | [Keyboard Row](https://leetcode.com/problems/keyboard-row/description/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/500_keyboardRow.py)| Easy | - |
 82 | 496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/description/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/496_nextGreaterElement1.py)| Easy | - |
 83 | 485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/description/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/485_maxConsecutiveOnes.py)| Easy | Google |
+84 | 669 | [Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/description/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/669_trimBST.py)| Easy | Bloomberg |
+85 | 461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance/description/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/461_hammingDistance.py)| Easy | Facebook |
+86 | 292 | [Nim Game](https://leetcode.com/problems/nim-game/description/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/292_nimGame.py)| Easy | Adobe |
+87 | 476 | [Number Complement](https://leetcode.com/problems/number-complement/description/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/476_numberComplement.py)| Easy | Adobe |
+88 | 463 | [Island Perimeter](https://leetcode.com/problems/island-perimeter/description/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/463_islandPerimeter.py)| Easy | Adobe |
