@@ -99,3 +99,4 @@ Solving problems from [Leetcode](https://leetcode.com/), mainly in Python. The p
 91 | 338 | [Counting Bits](https://leetcode.com/problems/counting-bits/description/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/338_countingBits.py)| Medium | - |
 92 | 231 | [Power of Two](https://leetcode.com/problems/power-of-two/description/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/231_powerOfTwo.py)| Easy | Google |
 93 | 257 | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/description/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/257_binaryTreePaths.py)| Easy | Google, Facebook, Apple |
+94 | 205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/description/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/205_isomorphicStrings.py)| Easy | LinkedIn |
