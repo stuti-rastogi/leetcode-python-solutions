@@ -100,3 +100,6 @@ Solving problems from [Leetcode](https://leetcode.com/), mainly in Python. The p
 92 | 231 | [Power of Two](https://leetcode.com/problems/power-of-two/description/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/231_powerOfTwo.py)| Easy | Google |
 93 | 257 | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/description/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/257_binaryTreePaths.py)| Easy | Google, Facebook, Apple |
 94 | 205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/description/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/205_isomorphicStrings.py)| Easy | LinkedIn |
+95 | 047 | [Permutations II](https://leetcode.com/problems/permutations-ii/description/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/047_permutations2.py)| Medium | LinkedIn, Microsoft |
+96 | 050 | [Pow(x, n)](https://leetcode.com/problems/powx-n/description/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/050_power.py)| Medium | LinkedIn, Google, Facebook, Bloomberg |
+97 | 284 | [Peeking Iterator](https://leetcode.com/problems/peeking-iterator/description/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/050_power.py)| Medium | Google, Apple, Yahoo |
