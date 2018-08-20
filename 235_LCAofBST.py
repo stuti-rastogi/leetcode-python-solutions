@@ -14,9 +14,9 @@ class Solution:
         :rtype: TreeNode
         """
         while root:
-            if p.val < root.val > q.val:
+            if p.val < root.val and root.val > q.val:
                 root = root.left
-            elif p.val > root.val < q.val:
+            elif p.val > root.val and root.val < q.val:
                 root = root.right
             else:
                 return root
