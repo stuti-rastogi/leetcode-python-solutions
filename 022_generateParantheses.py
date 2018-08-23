@@ -19,3 +19,20 @@ class Solution:
             tempSolution.append(')')
             self.generateParenthesisRec(n, openParentheses, closeParentheses+1, tempSolution, solution)
             tempSolution.pop()
+
+    #     self.res = []
+    #     self.helper(n, n, '')
+    #     return self.res
+    
+    # def helper(self, left, right, curr):
+    #     if left > right:
+    #         return
+    
+    #     if left == 0 and right == 0:
+    #         self.res.append(curr)
+            
+    #     if left > 0:
+    #         self.helper(left-1, right, curr+'(')
+        
+    #     if right > 0:
+    #         self.helper(left, right-1, curr+')')
