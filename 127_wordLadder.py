@@ -15,7 +15,7 @@ class Solution(object):
         seen = set([beginWord]+[endWord])
         if endWord not in wordlist:
             return 0
-        charstring = list(string.lowercase)         # all lowercase letters in alphabet
+        charstring = list(string.ascii_lowercase)         # all lowercase letters in alphabet
         length = 1 
         while front:
             if len(front) > len(end):
