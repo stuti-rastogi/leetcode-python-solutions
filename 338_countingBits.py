@@ -1,5 +1,5 @@
 class Solution:
-    def countBits(self, num):
+    def countBits(num):
         """
         :type num: int
         :rtype: List[int]
@@ -7,7 +7,12 @@ class Solution:
         num += 1
         res = [0, 1]
         while (len(res) < num):
-            res += [n+1 for n in res]
+            res += [i+1 for i in res]
+            print (res)
         return res[:num]
     
         # return [bin(i).count('1') for i in range(num+1)]
+
+    if __name__ == "__main__":
+        n = 10
+        print (countBits(n))
