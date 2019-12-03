@@ -135,6 +135,7 @@ Solving problems from [Leetcode](https://leetcode.com/), mainly in Python. The p
 127 | 096 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/description/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/096_uniqueBSTs.py)| Medium | Snapchat |
 128 | 151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/151_reverseWordsInString.py)| Medium | Microsoft, Snapchat, Apple, Bloomberg, Yelp |
 129 | 1108 | [Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/1108_defangingIPAddress.py)| Easy | - |
-
+130 | 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/771_jewelsAndStones.py)| Easy | - |
+131 | 1266 | [Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/1266_minTimeAllPts.py)| Easy | - |
 
 
