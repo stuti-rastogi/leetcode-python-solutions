@@ -137,5 +137,5 @@ Solving problems from [Leetcode](https://leetcode.com/), mainly in Python. The p
 129 | 1108 | [Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/1108_defangingIPAddress.py)| Easy | - |
 130 | 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/771_jewelsAndStones.py)| Easy | - |
 131 | 1266 | [Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/1266_minTimeAllPts.py)| Easy | - |
-
+132 | 258 | [Add Digits](https://leetcode.com/problems/add-digits/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/258_addDigits.py)| Easy | Adobe, Microsoft |
 
