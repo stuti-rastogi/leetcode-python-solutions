@@ -29,3 +29,11 @@ class Solution(object):
             cur.next = prev
             prev = cur
         return prev
+
+        # recursive
+        if not head or not head.next:
+            return head
+        node = self.reverseList(head.next)
+        head.next.next = head
+        head.next = None
+        return node

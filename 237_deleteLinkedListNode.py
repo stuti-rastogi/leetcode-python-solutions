@@ -10,8 +10,9 @@ class Solution(object):
         :type node: ListNode
         :rtype: void Do not return anything, modify node in-place instead.
         """
-        if (not node):
-            return
+        # node is the node to be deleted, no access to head of list
+        # copy next value to current node
+        # delete next node
         node.val = node.next.val
         node.next = node.next.next
         return
