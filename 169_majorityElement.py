@@ -18,6 +18,11 @@ class Solution:
 #                 return x
 #         return 0
 
+        # Alternate using sorting
+        # nums.sort()
+        # l=len(nums)
+        # return(nums[l/2])
+
         flag = 0
         majority = -1
         for num in nums:

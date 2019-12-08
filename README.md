@@ -139,3 +139,4 @@ Solving problems from [Leetcode](https://leetcode.com/), mainly in Python. The p
 131 | 1266 | [Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/1266_minTimeAllPts.py)| Easy | - |
 132 | 258 | [Add Digits](https://leetcode.com/problems/add-digits/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/258_addDigits.py)| Easy | Adobe, Microsoft |
 133 | 807 | [Max Increase to Keep City Skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/807_maxIncreaseForCitySkyline.py)| Medium | - |
+134 | 015 | [3 Sum](https://leetcode.com/problems/3sum/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/015_3Sum.py)| Medium | Facebook, Amazon, Microsoft, Bloomberg, Adobe |
