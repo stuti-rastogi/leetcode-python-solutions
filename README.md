@@ -140,3 +140,4 @@ Solving problems from [Leetcode](https://leetcode.com/), mainly in Python. The p
 132 | 258 | [Add Digits](https://leetcode.com/problems/add-digits/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/258_addDigits.py)| Easy | Adobe, Microsoft |
 133 | 807 | [Max Increase to Keep City Skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/807_maxIncreaseForCitySkyline.py)| Medium | - |
 134 | 015 | [3 Sum](https://leetcode.com/problems/3sum/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/015_3Sum.py)| Medium | Facebook, Amazon, Microsoft, Bloomberg, Adobe |
+135 | 002 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/002_addTwoNumbers.py)| Medium | AirBnb, Amazon, Microsoft, Bloomberg, Adobe |
