@@ -25,35 +25,60 @@ class Solution(object):
         # if (count == t_length):
         #     return True
         # return False
-        
+
         # SORTING
         ###########################################
         # s_sorted = "".join(sorted(s))
         # t_sorted = "".join(sorted(t))
-        
+
         # s_len = len(s_sorted)
         # t_len = len(t_sorted)
-        
+
         # if (s_len != t_len):
         #     return False
-        
+
         # for i in range(s_len):
         #     if (s_sorted[i] != t_sorted[i]):
         #         return False
         # return True
-    
+
         # ONE LINE SORTING
         ###########################################
         # return "".join(sorted(s))=="".join(sorted(t))
-        
+
         # ONE LINE COUNTER
         ###########################################
         # return Counter(s) == Counter(t)
-        
+
         # COUNTING CHAR COUNT
         ###########################################
-        alphabet = 'abcdefghijklmnopqrstuvwxyz'
-        for char in alphabet:
-            if(s.count(char) != t.count(char)):
+        # alphabet = 'abcdefghijklmnopqrstuvwxyz'
+        # for char in alphabet:
+        #     if(s.count(char) != t.count(char)):
+        #         return False
+        # return True
+
+        # HASH TABLE (DICTIONARY)
+        ###########################################
+        if len(s) != len(t):
+            return False
+
+        counts = {}
+        n = len(s)
+
+        for i in range(n):
+            if s[i] not in counts:
+                counts[s[i]] = 1
+            else:
+                counts[s[i]] += 1
+
+        for i in range(n):
+            if t[i] not in counts:
                 return False
+            counts[t[i]] -= 1
+
+        for key, val in counts.items():
+            if val != 0:
+                return False
+
         return True
