@@ -20,3 +20,14 @@ class Solution:
                 currentSlice = 0
                 
         return currentSlice + maxProfit
+
+        # finalProfit = 0
+        # if not prices:
+        #     return 0
+
+        # for i in range(len(prices) - 1):
+        #     diff = prices[i + 1] - prices[i]
+        #     if diff > 0:
+        #         finalProfit += diff
+
+        # return finalProfit
