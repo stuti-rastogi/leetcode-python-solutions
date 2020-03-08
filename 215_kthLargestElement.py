@@ -6,3 +6,5 @@ class Solution:
         :rtype: int
         """
         return sorted(nums)[-k]
+
+        # return heapq.nlargest(k, nums)[k-1]
