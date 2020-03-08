@@ -10,3 +10,20 @@ class Solution:
         """
         AB = Counter(a+b for a in A for b in B)
         return sum(AB[-(c+d)] for c in C for d in D)
+
+        # without collections
+        # abSum = {}
+        # for a in A:
+        #     for b in B:
+        #         check = a+b
+        #         if check in abSum:
+        #             abSum[check] += 1
+        #         else:
+        #             abSum[check] = 1
+
+        # count = 0
+        # for c in C:
+        #     for d in D:
+        #         check = -(c+d)
+        #         if (check in abSum):
+        #             count += abSum[check]
