@@ -19,3 +19,9 @@ class Solution(object):
             if (continuous > maxSum):
                 maxSum = continuous
         return maxSum
+
+        ##### Alternate Solution #####
+        # for i in range(len(nums) - 1):
+        #     if nums[i] > 0:
+        #         nums[i+1] += nums[i]
+        # return max(nums)
