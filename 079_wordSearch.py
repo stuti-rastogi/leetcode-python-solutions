@@ -37,51 +37,47 @@ class Solution:
         
 #         return False  
 
-    def exist(self, board, word):
-        """
-        :type board: List[List[str]]
-        :type word: str
-        :rtype: bool
-        """
-        def possible(i, j, m, n):
-            pos = []
-            if 0 <= i - 1:
-                pos.append((i-1, j))
-            if i + 1 < m:
-                pos.append((i + 1, j))
-            if 0 <= j - 1:
-                pos.append((i, j-1))
-            if j + 1 < n:
-                pos.append((i, j + 1))
-            return pos
-        
-        m = len(board)
-        if m == 0:
+class Solution:
+    def exist(self, board: List[List[str]], word: str) -> bool:
+        rows = len(board)
+        cols = len(board[0])
+        wordLen = len(word)
+        if not rows or not cols or not wordLen:
             return False
-        n = len(board[0])
-        if n == 0:
-            return False
-        l = len(word)
-        if l == 0:
-            return False
-        
-        def find(count, i, j, m, n, l):
-            if count == l - 1:
+
+        # pos is last found index in word
+        def findPath(i, j, pos):
+            # already done
+            if pos == wordLen-1:
                 return True
-            pos = possible(i, j, m, n)
-            for x, y in pos:
-                if board[x][y] == word[count + 1]:
+
+            neighbors = []
+            if (i-1) >= 0:
+                neighbors.append([i-1,j])
+            if (i+1) < rows:
+                neighbors.append([i+1, j])
+            if (j-1) >= 0:
+                neighbors.append([i,j-1])
+            if (j+1) < cols:
+                neighbors.append([i,j+1])
+
+            for x,y in neighbors:
+                if board[x][y] == word[pos+1]:
                     board[x][y] = None
-                    if find(count + 1, x, y, m, n, l):
+                    if findPath(x, y, pos+1):
                         return True
-                    board[x][y] = word[count + 1]
+                    board[x][y] = word[pos+1]
             return False
-        
-        for i in range(m):
-            for j in range(n):
+
+
+        for i in range(rows):
+            for j in range(cols):
+                # this position could be possible starting point of word
                 if board[i][j] == word[0]:
+                    # so it can't be reused
                     board[i][j] = None
-                    if find(0, i, j, m, n, l):
+                    if findPath(i, j, 0):
                         return True
+                    # reset
                     board[i][j] = word[0]
         return False
