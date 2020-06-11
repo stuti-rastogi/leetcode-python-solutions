@@ -41,5 +41,15 @@ class Solution:
                 root.right.next = root.next and root.next.left
                 root = root.next
             root = nex
-        
-    
+
+        # If return type is Node, return initial root
+        # if not root: return None
+        # if root.next: 
+        #     if root.right:
+        #         root.right.next = root.next.left
+        # if root.left:
+        #     root.left.next = root.right
+
+        # self.connect(root.left)
+        # self.connect(root.right)
+        # return root
