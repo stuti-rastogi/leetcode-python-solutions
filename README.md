@@ -2,8 +2,6 @@
 
 Solving problems from [Leetcode](https://leetcode.com/), mainly in Python. The problem descriptions and my solutions are linked in the following table:
 
-# Top Interview Questions
-
 | Sr. No. | Problem No. | Title  | Solution  | Difficulty  | Companies |
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 1 | 344 | [Reverse String](https://leetcode.com/problems/reverse-string/description/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/344_reverseString.py)| Easy | - |
@@ -151,3 +149,4 @@ Solving problems from [Leetcode](https://leetcode.com/), mainly in Python. The p
 | 143 | 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/200_numberOfIslands.py)| Medium | Google, Zenefit, Microsoft, Facebook, Amazon |
 | 144 | 329 | [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/379_longestIncreasingPathMatrix.py)| Hard | Google |
 | 145 | 207 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/207_courseSchedule.py)| Medium | Zenefit, Apple, Yelp |
+| 146 | 315 | [Count of Smaller Numbers after Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/315_countSmallerNumbersRight.py)| Hard | Google |
