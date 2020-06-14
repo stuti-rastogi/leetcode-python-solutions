@@ -11,7 +11,7 @@
 
 #         # print (graph)
 #         # print (nextNodes)
-        
+
 #         stack = []
 #         result = []
 
@@ -46,7 +46,7 @@ class Solution:
         if prerequisites == []:
             return [i for i in range(numCourses)]
         res = []
-        
+
         indegree = [0] * numCourses
 
         result = dict()
