@@ -154,3 +154,4 @@ Solving problems from [Leetcode](https://leetcode.com/), mainly in Python. The p
 | 148 | 124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/124_binaryTreeMaxPathSum.py)| Hard | Microsoft |
 | 149 | 098 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/098_validateBST.py)| Medium | Microsoft, Facebok, Amazon, Bloomberg |
 | 150 | 130 | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/130_surroundedRegions.py)| Medium | - |
+| 151 | 029 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/029_divideTwoInts.py)| Medium | - |
