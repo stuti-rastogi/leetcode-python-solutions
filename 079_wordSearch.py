@@ -1,4 +1,4 @@
-class Solution:
+# class Solution:
 #     def dfs(self, board, i, j, word):
 #         if (len(word) == 0):
 #             return True
