@@ -22,3 +22,18 @@ class Solution(object):
         if (stack):
             return False
         return True
+
+# cleaner and faster
+# class Solution:
+#     def isValid(self, s: str) -> bool:
+#         pairs = {')':'(', '}':'{', ']':'['}
+#         stack = []
+#         for c in s:
+#             if c not in pairs:
+#                 stack.append(c)
+#             else:
+#                 if stack and stack[-1] == pairs[c]:
+#                     stack.pop()
+#                 else:
+#                     return False
+#         return stack == []
