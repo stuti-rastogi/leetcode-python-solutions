@@ -5,34 +5,34 @@
 #         self.left = None
 #         self.right = None
 
-class Solution:
+# class Solution:
 
-    ################################
-    ########### METHOD 1 ###########
-    ################################
+#     ################################
+#     ########### METHOD 1 ###########
+#     ################################
 
-    def countNodes(self, root):
-        if not root:
-            return 0
-        return 1 + self.countNodes(root.left) + self.countNodes(root.right)
+#     def countNodes(self, root):
+#         if not root:
+#             return 0
+#         return 1 + self.countNodes(root.left) + self.countNodes(root.right)
 
-    def kthSmallest(self, root, k):
-        """
-        :type root: TreeNode
-        :type k: int
-        :rtype: int
-        """
+#     def kthSmallest(self, root, k):
+#         """
+#         :type root: TreeNode
+#         :type k: int
+#         :rtype: int
+#         """
 
-        if not root:
-            return
+#         if not root:
+#             return
         
-        count = self.countNodes(root.left)
-        if (k <= count):
-            return self.kthSmallest(root.left, k)
-        elif (k > count+1):
-            return self.kthSmallest(root.right, k - count - 1)
-        else:
-            return root.val
+#         count = self.countNodes(root.left)
+#         if (k <= count):
+#             return self.kthSmallest(root.left, k)
+#         elif (k > count+1):
+#             return self.kthSmallest(root.right, k - count - 1)
+#         else:
+#             return root.val
 
     ################################
     ########### METHOD 2 ###########
@@ -97,3 +97,25 @@ class Solution:
     #             return root.val
 
     #         root = root.right
+
+    ################################
+    ########### METHOD 5 ###########
+    ################################
+    # Inorder traversal, but exit on finding the node
+
+    # def kthSmallest(self, root, k):
+    #     inOrder = []
+    #     return self.kthSmallestRec(root, inOrder, k)
+
+    # def kthSmallestRec(self, node, inOrder, k):
+    #     if node:
+    #         val = self.kthSmallestRec(node.left, inOrder, k)
+    #         if val != None:
+    #             return val
+    #         inOrder.append(node.val)
+    #         if len(inOrder) == k:
+    #             return inOrder[-1]
+    #         val = self.kthSmallestRec(node.right, inOrder, k)
+    #         if val != None:
+    #             return val
+    #     return None

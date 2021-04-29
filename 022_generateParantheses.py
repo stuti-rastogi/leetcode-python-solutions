@@ -36,3 +36,8 @@ class Solution:
         
     #     if right > 0:
     #         self.helper(left, right-1, curr+')')
+
+# to help debug
+# if __name__ == "__main__":
+#     s = Solution()
+#     print (s.generateParenthesis(3))

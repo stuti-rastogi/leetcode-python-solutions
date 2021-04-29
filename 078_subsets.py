@@ -41,3 +41,8 @@ class Solution(object):
         for k in range(n+1):
             backtrack(0, [])
         return result
+
+
+# if __name__ == "__main__":
+#     s = Solution()
+#     print(s.subsets([1,2,3]))
