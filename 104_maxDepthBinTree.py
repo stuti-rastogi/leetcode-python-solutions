@@ -12,9 +12,13 @@ class Solution:
         :rtype: int
         """
         return self.maxDepth_helper(root, 0)
-    
+        # without helper method:
+        # if not root:
+        #     return 0
+        # return 1 + max(self.maxDepth(root.left), self.maxDepth(root.right))
+
+
     def maxDepth_helper(self, root, maxDepth):
         if (not root):
             return maxDepth
         return max(self.maxDepth_helper(root.left, maxDepth+1), self.maxDepth_helper(root.right, maxDepth+1))
-        

@@ -6,8 +6,17 @@ class Solution:
         """
         
         # using library
+        # itertools.permutations(nums) - tuples on iterating
         # return list(map(list, itertools.permutations(nums)))
-        
+
+        # recursive
+        # if len(nums) == 1:
+        #     return [nums]
+        # result = []
+        # for i in range(len(nums)):
+        #     result = result + [[nums[i]] + l for l in self.permute(nums[:i]+nums[i+1:])]
+        # return result
+
         # iterative
         result = [[]]
         for n in nums:

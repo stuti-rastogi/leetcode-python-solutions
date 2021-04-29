@@ -14,7 +14,7 @@ class Solution:
         # result = []
         # self.inorder(root, result)
         # return result
-        
+
         # iterative
         result = []
         stack = []
@@ -27,12 +27,9 @@ class Solution:
             node = stack.pop()
             result.append(node.val)
             root = node.right
-    
+
     def inorder (self, root, result):
         if root:
             self.inorder(root.left, result)
             result.append(root.val)
             self.inorder(root.right, result)
-            
-        
-        
