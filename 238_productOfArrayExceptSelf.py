@@ -19,4 +19,3 @@ class Solution:
             result[i] = result[i] * prod
             prod = prod * nums[i]
         return result
-            

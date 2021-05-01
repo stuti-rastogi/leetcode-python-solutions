@@ -10,9 +10,19 @@ class Solution(object):
         #     if (x > 1):
         #         return True
         # return False
-        
-        s = set(nums)
-        if len(s) == len(nums):
-            return False
-        else:
-            return True
+
+        # seen = set()
+        # for x in nums:
+        #     if x in seen:
+        #         return True
+        #     seen.add(x)
+        # return False
+
+        return len(set(nums)) < len(nums)
+
+        # nums.sort()
+        # n = len(nums)
+        # for i in range(n-1):
+        #     if nums[i] == nums[i+1]:
+        #         return True
+        # return False

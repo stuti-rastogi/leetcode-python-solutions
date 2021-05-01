@@ -14,21 +14,38 @@ class Solution:
             return None
         if not head.next:
             return head
-        
-        oddHead = head
+
         evenHead = head.next
-        odd = oddHead
+        odd = head
         even = evenHead
         current = head.next.next
-        
-        while(current):
-            odd.next = current
+
+        while(even and even.next):
+            odd.next = even.next
             odd = odd.next
-            even.next = current.next
+            even.next = odd.next
             even = even.next
-            if not current.next:
-                break
-            current = current.next.next
-            
+
         odd.next = evenHead
-        return oddHead
+        return head
+
+        # more complicated, but accepted
+        # if not head:
+        #     return None
+        # tail = head
+        # n = 1
+        # while tail.next:
+        #     tail = tail.next
+        #     n = n + 1
+        # curr = head
+        # i = 0
+        # if n > 2:
+        #     while (i < n-1):
+        #         evenNode = curr.next
+        #         curr.next = evenNode.next
+        #         tail.next = evenNode
+        #         tail = tail.next
+        #         i += 2
+        #         curr = curr.next
+        #     tail.next = None
+        # return head
