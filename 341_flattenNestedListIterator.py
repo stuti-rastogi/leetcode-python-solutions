@@ -27,11 +27,11 @@
 class NestedIterator:
     def __init__(self, nestedList: [NestedInteger]):
         self.stack = nestedList
-    
+
     def next(self) -> int:
         return self.stack.pop(0)
-        
-    
+
+
     def hasNext(self) -> bool:
         while self.stack:
             if self.stack[0].isInteger():
