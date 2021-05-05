@@ -18,7 +18,7 @@ class Solution(object):
 #         while curB:
 #             lenB = lenB + 1
 #             curB = curB.next
-            
+
 #         curA, curB = headA, headB
 #         if lenA > lenB:
 #             for i in range(lenA-lenB):
@@ -31,8 +31,9 @@ class Solution(object):
 #             curA = curA.next
 #         return curA
 
+
         pointer_a, pointer_b = headA, headB
-        
+
         while pointer_a is not pointer_b:
             pointer_a = headB if pointer_a is None else pointer_a.next
             pointer_b = headA if pointer_b is None else pointer_b.next

@@ -5,26 +5,15 @@ class Solution:
         :type target: int
         :rtype: List[int]
         """
-        # ans = []
-        # for i in range(len(nums)):
-        #     x = nums[i]
-        #     lookFor = target - x
-        #     if (lookFor in nums):
-        #         pos = nums.index(lookFor)
-        #         if (pos == i):
-        #             continue
-        #         ans.append(i)
-        #         ans.append(pos)
-        #         break
-        # return ans
-        
-        d = {}
-        for i, x in enumerate(nums):
-            check = target - x
-            if check in d:
-                pos = d[check]
-                break
-            else:
-                d[x] = i
+        # Brute-force solution, accepted
+        # n = len(nums)
+        # for i in range(n):
+        #     for j in range(i+1, n):
+        #         if nums[i] + nums[j] == target:
+        #             return [i, j]
 
-        return [pos, i]
+        d = {}
+        for i, num in enumerate(nums):
+            if (target - num) in d:
+                return [i, d[target-num]]
+            d[num] = i

@@ -10,7 +10,4 @@ class Solution:
             low = min(low, price)
             profit = price - low
             maxProfit = max(maxProfit, profit)
-            
         return maxProfit
-        
-        

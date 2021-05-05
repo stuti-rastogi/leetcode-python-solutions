@@ -4,25 +4,21 @@ class Solution(object):
         :type n: int
         :rtype: bool
         """
-        hash_set = set()
-        
-        while True:
-            calc_num = 0
+        seen = set()
+        while (True):
+            sumOfSquaredDigits = 0
             while n > 0:
-                mod = n % 10
-                calc_num += mod * mod
-                n //= 10
-            
-            if calc_num == 1:
+                digit = n % 10
+                n = n // 10
+                sumOfSquaredDigits += digit**2
+            if sumOfSquaredDigits == 1:
                 return True
-            
-            if calc_num in hash_set:
+            if sumOfSquaredDigits in seen:
                 return False
-            else:
-                hash_set.add(calc_num)
-                n = calc_num
-                
-                
+            seen.add(sumOfSquaredDigits)
+            n = sumOfSquaredDigits
+
+
 #         seen = []
 #         while (True):
 #             print (seen)

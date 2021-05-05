@@ -1,16 +1,27 @@
 class Solution:
-    def __init__ (self):
-        self.dict = {0:0, 1:1, 2:2}
-        
     def climbStairs(self, n):
         """
         :type n: int
         :rtype: int
         """
-        
-        if n not in self.dict:
-            self.dict[n] = self.climbStairs(n-1) + self.climbStairs(n-2)
-        return self.dict[n]
+
+        dp = {0: 0, 1: 1, 2: 2}
+        # Top-Down
+        return self.climbStairsRec(n, dp)
+
+        # Bottom-Up
+        # for i in range(n+1):
+        #     if i not in dp:
+        #         dp[i] = dp[i-1] + dp[i-2]
+        # return dp[n]
+
+
+    def climbStairsRec(self, n, dp):
+        if n in dp:
+            return dp[n]
+        dp[n] = self.climbStairsRec(n-1, dp) + self.climbStairsRec(n-2, dp)
+        return dp[n]]
+
 
 #     def climbStairs(self, n):
 #         """

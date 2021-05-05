@@ -15,14 +15,16 @@ class Solution(object):
 #                 for _ in range(min(c1[i], c2[i])):
 #                     result.append(i)
 #         return result
-    
+
+# return (collections.Counter(nums1) & collections.Counter(nums2)).elements()
+
         elem_counter = {}
         for num in nums1:
             if num in elem_counter:
                 elem_counter[num] += 1
             else:
                 elem_counter[num] = 1
-        
+
         intersect_list = []
         for num in nums2:
             if num in elem_counter:
@@ -30,5 +32,5 @@ class Solution(object):
                 if elem_counter[num] == 0:
                     del elem_counter[num]
                 intersect_list.append(num)
-        
+
         return intersect_list
