@@ -37,15 +37,15 @@ class Solution(object):
         # reversing first half of list
         p = head
         curr = head
-        half = count / 2        
-        while half > 0:            
+        half = count / 2
+        while half > 0:
             tmp = p.next
             if p != head:
                  p.next = curr 
             else:
                 p.next = None
             curr = p
-            p = tmp            
+            p = tmp
             half -= 1
         
         # pointer to beginning of second half

@@ -22,13 +22,16 @@ class Solution:
         # if (carry == 1 and ans == 0):
         #     result.append(1)
         # return (list(reversed(result)))
-    
+
+
+        # return [int(i) for i in str(int("".join(map(str, digits))) + 1)]
+
         n = len(digits)
         for i in range(n-1, -1, -1):
             if (digits[i] != 9):
                 digits[i] += 1
                 break
             digits[i] = 0
-        if digits[0] == 0:
-            digits.insert(0, 1)
+            if digits[0] == 0:
+                digits.insert(0, 1)
         return digits
