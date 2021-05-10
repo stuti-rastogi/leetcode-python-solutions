@@ -8,14 +8,13 @@ class Solution:
         # return haystack.find(needle)
         lh = len(haystack)
         ln = len(needle)
-        
+
         if not needle:
             return 0
         if not haystack or lh < ln:
             return -1
-        
+
         index = 0
-        
         if needle in haystack:
             first = needle[0]
             for c in haystack:

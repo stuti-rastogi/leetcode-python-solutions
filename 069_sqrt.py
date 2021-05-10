@@ -8,6 +8,12 @@ class Solution:
         # return int(math.sqrt(x))
         # return int(x ** 0.5)
 
+        # Newton's method for square root
+        # r = x
+        # while r*r > x:
+        #     r = int(r + x/r) // 2
+        # return r
+
         if (x == 0):
             return 0
         if (x == 1):
