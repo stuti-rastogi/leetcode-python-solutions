@@ -21,7 +21,7 @@ class Solution:
         result = []
         nextstack = []
         currlist = []
-        
+
         while(currstack):
             while (currstack):
                 node = currstack.pop()
@@ -38,5 +38,5 @@ class Solution:
             currstack = nextstack
             nextstack = []
             currlist = []
-        
+
         return result[:-1]

@@ -6,7 +6,7 @@ class Solution:
         n = len(nums)
         low = 0
         high = n-1
-        
+
         i = 0
         while (i <= high):
             if nums[i] == 2:
@@ -19,7 +19,7 @@ class Solution:
             else:
                 i += 1
         return
-            
+
 #         pos0 = -1
 #         pos1 = -1
 #         pos2 = -1

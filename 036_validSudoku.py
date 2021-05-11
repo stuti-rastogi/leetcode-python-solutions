@@ -6,7 +6,7 @@ class Solution:
                 if c != '.':
                     seen += [(c,j),(i, c),(i//3,j//3,c)]
         return len(seen) == len(set(seen))
-    
+
         # return (self.is_row_valid(board) and
         #         self.is_col_valid(board) and
         #         self.is_square_valid(board))
