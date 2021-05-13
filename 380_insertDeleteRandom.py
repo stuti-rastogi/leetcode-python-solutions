@@ -6,7 +6,6 @@ class RandomizedSet:
         """
         self.values = []
         self.positions = {}     # store corresponding positions of values in set
-        
 
     def insert(self, val):
         """
@@ -36,8 +35,6 @@ class RandomizedSet:
             self.positions.pop(val)
             return True
         return False
-        
-        
 
     def getRandom(self):
         """
