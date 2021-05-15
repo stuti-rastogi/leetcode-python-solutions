@@ -5,17 +5,17 @@ class Solution:
         """
         if not matrix:
             return
-        
+
         # use first row as "cols" array, use first column as "rows" array
         # to do that, first store what needs to be done of first row/col
         # i.e., do they contain zeroes
-        
+
         firstRowZeros = False
         firstColZeros = False
-        
+
         m = len(matrix)
         n = len(matrix[0])
-        
+
         for i in range(m):
             if matrix[i][0] == 0:
                 firstColZeros = True
@@ -24,7 +24,7 @@ class Solution:
             if matrix[0][j] == 0:
                 firstRowZeros = True
                 break
-        
+
         for i in range(1,m):
             for j in range(1,n):
                 if matrix[i][j] == 0:
@@ -39,14 +39,14 @@ class Solution:
             if matrix[0][j] == 0:
                 for i in range(1,m):
                     matrix[i][j] = 0
-        
+
         if firstRowZeros:
             for j in range(n):
                 matrix[0][j] = 0
         if firstColZeros:
             for i in range(m):
                 matrix[i][0] = 0
-        
+
         return
 
 ############ O(m+n) space ############
@@ -55,7 +55,7 @@ class Solution:
 #             return
 #         m = len(matrix)
 #         n = len(matrix[0])
-        
+
 #         # O(m+n) space
 #         rows = [False] * m
 #         cols = [False] * n
@@ -65,15 +65,15 @@ class Solution:
 #                 if matrix[i][j] == 0:
 #                     rows[i] = True
 #                     cols[j] = True
-        
+
 #         for i in range(m):
 #             if rows[i]:
 #                 for j in range(n):
 #                     matrix[i][j] = 0
-        
+
 #         for j in range(n):
 #             if cols[j]:
 #                 for i in range(m):
 #                     matrix[i][j] = 0
-        
+
 #         return
