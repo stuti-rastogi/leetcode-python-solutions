@@ -6,10 +6,10 @@ class Solution:
         """
         if not nums:
             return False
-        
+
         min1 = float('inf')
         min2 = float('inf')
-        
+
         for x in nums:
             if (x <= min1):
                 min1 = x
