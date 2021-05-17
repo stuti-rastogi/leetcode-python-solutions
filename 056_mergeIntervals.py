@@ -12,7 +12,7 @@ class Solution:
         """
         if (not intervals):
             return []
-        
+
         sortedIntervals = sorted(intervals, key = lambda x: x.start)
         result = []
         result.append(sortedIntervals[0])
