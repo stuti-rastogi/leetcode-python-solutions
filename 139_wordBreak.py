@@ -3,7 +3,7 @@ class Solution(object):
         wordSet = set()
         for word in words:
             wordSet.add(word)
-            
+
         dp = [False] * len(s)
         for i in range(len(s)):
             if dp[i - 1] or i == 0:
