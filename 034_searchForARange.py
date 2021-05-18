@@ -37,16 +37,14 @@ class Solution:
                 else:
                     low = mid + 1
             return low
-        
+
         n = len(nums)
         if n == 0:
             return [-1,-1]
-        
+
         leftPos = findPosition(True)
-        
         if (leftPos == n) or (nums[leftPos] != target):
             return [-1,-1]
-        
         rightPos = findPosition(False)-1
-        
+
         return [leftPos, rightPos]
