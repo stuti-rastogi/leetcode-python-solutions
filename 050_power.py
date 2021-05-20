@@ -5,7 +5,7 @@ class Solution:
         :type n: int
         :rtype: float
         """
-        
+
         if n == 0:
             return 1
         if n < 0:
