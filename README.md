@@ -2,6 +2,9 @@
 
 Solving problems from [Leetcode](https://leetcode.com/), mainly in Python. The problem descriptions and my solutions are linked in the following table:
 
+:exclamation: - Questions that I found harder to solve
+:lock: - Questions that are from Leetcode premium
+
 | Sr. No. | Problem No. | Title  | Solution  | Difficulty  | Companies |
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 1 | 344 | [Reverse String](https://leetcode.com/problems/reverse-string/description/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/344_reverseString.py)| Easy | - |
@@ -124,8 +127,8 @@ Solving problems from [Leetcode](https://leetcode.com/), mainly in Python. The p
 | 118 | 140 | [Word Break II](https://leetcode.com/problems/word-break-ii/description/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/140_wordBreak2.py)| Hard | Google, Uber, Twitter, Snapchat, Dropbox |
 | 119 | 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/description/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/146_LRUCache.py)| Medium | Google, Uber, Facebook, Twitter, Zenefit, Amazon, Microsoft, Snapchat, Yahoo, Bloomberg, Palantir |
 | 120 | 149 | [Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/description/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/149_maxPointsOnALine.py)| Hard | LinkedIn, Twitter, Apple |
-| 121 | 266 | [Palindrome Permutation](https://www.leetfree.com/problems/palindrome-permutation.html) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/LockedQuestions/266_palindromePermutation.py)| Easy | Google, Uber |
-| 122 | 280 | [Wiggle Sort](https://www.leetfree.com/problems/wiggle-sort.html) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/LockedQuestions/280_wiggleSort.py)| Medium | Google |
+| :lock: 121 | 266 | [Palindrome Permutation](https://www.leetfree.com/problems/palindrome-permutation.html) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/LockedQuestions/266_palindromePermutation.py)| Easy | Google, Uber |
+| :lock: 122 | 280 | [Wiggle Sort](https://www.leetfree.com/problems/wiggle-sort.html) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/LockedQuestions/280_wiggleSort.py)| Medium | Google |
 | 123 | 017 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/017_letterCombsOfPhoneNumber.py)| Medium | Google, Uber, Facebook, Amazon, Dropbox |
 | 124 | 031 | [Next Permutation](https://leetcode.com/problems/next-permutation/description/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/031_nextPermutation.py)| Medium | Google |
 | 125 | 406 | [Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/description/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/406_queueReconstructionByHeight.py)| Medium | - |
@@ -181,3 +184,4 @@ Solving problems from [Leetcode](https://leetcode.com/), mainly in Python. The p
 | 175 | 539 | [Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/539_minTimeDifference.py)| Medium | Palantir, Amazon |
 | 176 | 273 | [Minimum Time Difference](https://leetcode.com/problems/integer-to-english-words/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/273_integerToEnglishWords.py)| Hard | Palantir, Amazon, Facebook, Microsoft, LinkedIn, Apple, Oracle, Adobe, Google |
 | 177 | 733 | [Flood Fill](https://leetcode.com/problems/flood-fill/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/733_floodFill.py)| Easy | Palantir, Amazon, Facebook, Microsoft, Apple, Adobe, Google, Uber, Bloomberg |
+| :lock: 178 | 277 | [Find the Celebrity](https://leetcode.com/problems/find-the-celebrity/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/LockedQuestions/277_findCelebrity.py)| Medium | Microsoft, Amazon, Apple, Facebook, LinkedIn, Google, Palantir, Uber |
