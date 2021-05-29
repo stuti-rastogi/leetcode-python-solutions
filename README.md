@@ -3,6 +3,7 @@
 Solving problems from [Leetcode](https://leetcode.com/), mainly in Python. The problem descriptions and my solutions are linked in the following table:
 
 :exclamation: - Questions that I found harder to solve
+
 :lock: - Questions that are from Leetcode premium
 
 | Sr. No. | Problem No. | Title  | Solution  | Difficulty  | Companies |
@@ -111,7 +112,7 @@ Solving problems from [Leetcode](https://leetcode.com/), mainly in Python. The p
 | 102 | 127 | [Word Ladder](https://leetcode.com/problems/word-ladder/description/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/127_wordLadder.py)| Medium | LinkedIn, Facebook, Amazon, Snapchat, Yelp |
 | 103 | 042 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/description/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/042_trappingRainWater.py)| Hard | Google, Twitter, Zenefit, Amazon, Apple, Bloomberg |
 | 104 | 303 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/description/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/303_rangeSum.py)| Easy | Palantir |
-| 105 | 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/description/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/219_containsDuplicate2.py)| Easy | AirBnb, Palantir |
+| 105 | 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/description/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/219_containsDuplicate2.py)| Easy | Facebook, Adobe, Amazon, Google, Bloomberg, Microsoft, Apple, AirBnb, Palantir |
 | 106 | 218 | [The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/description/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/218_skyLineProblem.py)| Hard | Google, Facebook, Twitter, Microsoft, Yelp |
 | 107 | 033 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/033_searchRotatedSortedArr.py)| Medium | LinkedIn, Uber, Facebook, Microsoft, Bloomberg |
 | 108 | 081 | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/081_searchRotatedSortedArr2.py)| Medium | - |
@@ -185,3 +186,4 @@ Solving problems from [Leetcode](https://leetcode.com/), mainly in Python. The p
 | 176 | 273 | [Minimum Time Difference](https://leetcode.com/problems/integer-to-english-words/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/273_integerToEnglishWords.py)| Hard | Palantir, Amazon, Facebook, Microsoft, LinkedIn, Apple, Oracle, Adobe, Google |
 | 177 | 733 | [Flood Fill](https://leetcode.com/problems/flood-fill/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/733_floodFill.py)| Easy | Palantir, Amazon, Facebook, Microsoft, Apple, Adobe, Google, Uber, Bloomberg |
 | :lock: 178 | 277 | [Find the Celebrity](https://leetcode.com/problems/find-the-celebrity/) | [Python3](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/LockedQuestions/277_findCelebrity.py)| Medium | Microsoft, Amazon, Apple, Facebook, LinkedIn, Google, Palantir, Uber |
+| 178 | 220 | [Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/220_containsDuplicate3.py)| Medium | Facebook, Adobe, Google, Apple, AirBnb, Palantir |
