@@ -1,27 +1,27 @@
-# Definition for a undirected graph node
-# class UndirectedGraphNode:
-#     def __init__(self, x):
-#         self.label = x
-#         self.neighbors = []
+"""
+# Definition for a Node.
+class Node:
+    def __init__(self, val = 0, neighbors = None):
+        self.val = val
+        self.neighbors = neighbors if neighbors is not None else []
+"""
 
 class Solution:
-    # @param node, a undirected graph node
-    # @return a undirected graph node
-    def cloneGraph(self, node):
-        if (not node):
+    def cloneGraph(self, node: 'Node') -> 'Node':
+        if not node:
             return None
-        
-        newNode = UndirectedGraphNode(node.label)
-        done = {node:newNode}
+
         stack = [node]
+        cloned_node = Node(node.val)
+        copies = {node: cloned_node}
+
         while stack:
-            node = stack.pop()
-            for neighbor in node.neighbors:
-                if neighbor not in done:
-                    copyNeighbor = UndirectedGraphNode(neighbor.label)
-                    done[neighbor] = copyNeighbor
-                    done[node].neighbors.append(copyNeighbor)
+            curr_node = stack.pop()
+            for neighbor in curr_node.neighbors:
+                if neighbor not in copies:
+                    copy_neighbor = Node(neighbor.val)
+                    copies[neighbor] = copy_neighbor
                     stack.append(neighbor)
-                else:
-                    done[node].neighbors.append(done[neighbor])
-        return newNode
+                copies[curr_node].neighbors.append(copies[neighbor])
+
+        return copies[node]
