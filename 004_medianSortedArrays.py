@@ -116,9 +116,9 @@ class Solution:
             i = (iLeft + iRight) // 2
             j = halfLen - i
             if i < m and nums2[j-1] > nums1[i]:
-                iLeft += 1
+                iLeft = i + 1
             elif i > 0 and nums1[i-1] > nums2[j]:
-                iRight -= 1
+                iRight = i - 1
             else:
                 if i == 0:
                     maxLeft = nums2[j-1]
