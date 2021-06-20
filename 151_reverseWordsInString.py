@@ -1,30 +1,29 @@
-class Solution(object):
-    def reverseWords(self, s):
-        """
-        :type s: str
-        :rtype: str
-        """
-        return " ".join(s.strip().split()[::-1])
-        
-#         s = s.strip()
-#         n = len(s)
-#         if not s:
-#             return ""
-        
-#         result = ""
-#         end = n-1
-#         i = n - 1
-#         while (i >= 0):
-#             # print (i, end)
-#             if s[i] == ' ':
-#                 result = result + s[i+1:end+1]
-#                 result = result + ' '
-#                 # print (result)
-#                 end = i-1
-#                 while (s[end] == ' '):
-#                     end = end-1
-#                 i = end
-#             else:
-#                 i = i - 1
-#         result = result + s[:end+1]
-#         return result.strip()
+class Solution:
+    def reverse_str(self, s: str) -> str:
+        if not s:
+            return ""
+        s_list = list(s.strip())
+        s_len = len(s)
+        mid = s_len // 2
+        for i in range(mid):
+            s_list[i], s_list[s_len-1-i] = s_list[s_len-1-i], s_list[i]
+        return "".join(s_list)
+
+    def reverseWords(self, s: str) -> str:
+        s = s.strip()
+        s_reverse = self.reverse_str(s)
+        output = []
+        start = 0
+        for index, c in enumerate(s_reverse):
+            if c == ' ':
+                reversed_word = self.reverse_str(s_reverse[start:index])
+                if reversed_word:
+                    output.append(reversed_word)
+                start = index+1
+        output.append(self.reverse_str(s_reverse[start:]))
+        return " ".join(output)
+
+
+    # PYTHON 1 LINER
+    # def reverseWords(self, s: str) -> str:
+    #     return " ".join(s.split()[::-1])

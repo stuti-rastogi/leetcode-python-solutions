@@ -1,9 +1,5 @@
 class Solution:
-    def longestCommonPrefix(self, strs):
-        """
-        :type strs: List[str]
-        :rtype: str
-        """
+    def longestCommonPrefix(self, strs: List[str]) -> str:
         def findMinLength(strs):
             if not strs:
                 return 0
@@ -16,15 +12,15 @@ class Solution:
         minLength = findMinLength(strs)
         if minLength == 0:
             return ""
-        result = ""
+        result = []
 
         for pos in range(minLength):
             prefix = strs[0][pos]
             for i in range(len(strs)):
                 if strs[i][pos] != prefix:
-                    return result
-            result += prefix
-        return result
+                    return "".join(result)
+            result.append(prefix)
+        return "".join(result)
 
 
         # if not strs:
