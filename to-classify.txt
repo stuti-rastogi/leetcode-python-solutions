@@ -1,0 +1,6 @@
+** INTERNAL NOTES **
+
+Due to laptop malfunction, able to solve questions but not able to push to GitHub
+Keeping track of leetcode questions that need to be added to GitHub later:
+
+1. https://leetcode.com/problems/robot-bounded-in-circle/
