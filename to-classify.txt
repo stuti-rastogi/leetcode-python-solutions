@@ -4,3 +4,7 @@ Due to laptop malfunction, able to solve questions but not able to push to GitHu
 Keeping track of leetcode questions that need to be added to GitHub later:
 
 1. https://leetcode.com/problems/robot-bounded-in-circle/
+2. https://leetcode.com/problems/reorder-data-in-log-files/
+3. https://leetcode.com/problems/k-closest-points-to-origin
+4. https://leetcode.com/problems/analyze-user-website-visit-pattern/
+
