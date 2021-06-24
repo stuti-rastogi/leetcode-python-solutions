@@ -7,4 +7,6 @@ Keeping track of leetcode questions that need to be added to GitHub later:
 2. https://leetcode.com/problems/reorder-data-in-log-files/
 3. https://leetcode.com/problems/k-closest-points-to-origin
 4. https://leetcode.com/problems/analyze-user-website-visit-pattern/
-
+5. https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/
+6. https://leetcode.com/problems/maximum-units-on-a-truck/
+7. https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/solution/
