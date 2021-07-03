@@ -1,35 +1,30 @@
 class Solution(object):
     # do BFS till reach target
     # store length to each path
-    def ladderLength(self, beginWord, endWord, wordList):
-        """
-        :type beginWord: str
-        :type endWord: str
-        :type wordList: List[str]
-        :rtype: int
-        """
-        
-        front = set([beginWord])
-        end = set([endWord])
-        wordlist = set(wordList)
-        seen = set([beginWord]+[endWord])
-        if endWord not in wordlist:
+    def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:
+        if endWord not in wordList:
             return 0
-        charstring = list(string.ascii_lowercase)         # all lowercase letters in alphabet
-        length = 1 
-        while front:
-            if len(front) > len(end):
-                front, end = end, front
-            temp = set()
-            for word in front:
-                for i in range(len(word)):
-                    for char in charstring:
-                        newword = word[:i] + char  + word[i+1:]
-                        if newword in end:
-                            return length+1
-                        if newword in wordlist and newword not in seen:
-                            seen.add(newword)
-                            temp.add(newword)
-            front = temp
-            length +=1
+        
+        l = len(beginWord)
+        
+        # pre-processing
+        generic_strs = collections.defaultdict(list)
+        for word in wordList:
+            for i in range(l):
+                generic_strs[word[:i] + '*' + word[i+1:]].append(word)
+                
+        # bfs
+        queue = collections.deque([(beginWord, 1)])
+        visited = set()
+        while queue:
+            currentWord, level = queue.popleft()
+            visited.add(currentWord)
+            for i in range(l):
+                next_word = currentWord[:i] + '*' + currentWord[i+1:]
+                for neighbor in generic_strs[next_word]:
+                    if neighbor == endWord:
+                        return level+1
+                    if neighbor not in visited:
+                        visited.add(neighbor)
+                        queue.append((neighbor, level+1))
         return 0
