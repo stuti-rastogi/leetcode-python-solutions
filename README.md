@@ -235,3 +235,6 @@ Solving problems from [Leetcode](https://leetcode.com/), mainly in Python. The p
 | :lock: 225 | 348 | [Design Tic-Tac-Toe](https://leetcode.com/problems/design-tic-tac-toe/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/LockedQuestions/348_designTicTacToe.py)| Medium | Amazon, Facebok, Microsoft, Apple, Google, Uber, Bloomberg |
 | 226 | 1169 | [Invalid Transactions](https://leetcode.com/problems/invalid-transactions/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/1169_invalidTransactions.py)| Medium | Bloomberg, Amazon |
 | 227 | 1167 | [Minimum Cost to Connect Sticks](https://leetcode.com/problems/minimum-cost-to-connect-sticks/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/1167_minCostToConnectSticks.py)| Medium | Amazon, Google |
+| 228 | 1480 | [Running Sum of 1D Array](https://leetcode.com/problems/running-sum-of-1d-array/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/1480_runningSum1dArray.py)| Easy | Amazon, Apple, Adobe, Bloomberg, Google, Microsoft, Uber |
+| 229 | 1029 | [Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/1029_twoCityScheduling.py)| Medium | Bloomberg, Amazon, Google |
+
