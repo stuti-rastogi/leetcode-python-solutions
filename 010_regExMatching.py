@@ -6,7 +6,7 @@ class Solution(object):
         def dp(i, j):
             if (i, j) not in memo:
                 if j == len(pattern):
-                    ans = i == len(text)
+                    ans = (i == len(text))
                 else:
                     first_match = i < len(text) and pattern[j] in {text[i], '.'}
                     if j+1 < len(pattern) and pattern[j+1] == '*':
