@@ -35,9 +35,7 @@ class Twitter:
                 if following_user in self.user_tweets:
                     for tweet in self.user_tweets[following_user]:
                         possible_tweets.append(tweet)
-            # print (possible_tweets)
             possible_tweets.sort(key=lambda x: x[1], reverse=True)
-            num_possible_tweets = len(possible_tweets)
         return [tweet[0] for tweet in possible_tweets[:10]]
 
 
