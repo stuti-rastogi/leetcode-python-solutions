@@ -21,24 +21,24 @@ class BSTIterator(object):
         """
         if self.stack:
             return True
-        
+
         return False
-        
-        
+
+
     def next(self):
         """
         :rtype: int
         """
         node = self.stack.pop()
         tempRoot = node.right
-        
+
         while tempRoot:
             self.stack.append(tempRoot)
             tempRoot = tempRoot.left
-        
+
         return node.val
 
-###### My solution ######
+
 
 #     def populate (self, root):
 #         while (root):
@@ -51,7 +51,7 @@ class BSTIterator(object):
 #         """
 #         self.stack = []
 #         self.populate(root)
-    
+
 #     def hasNext(self):
 #         """
 #         :rtype: bool
@@ -59,7 +59,7 @@ class BSTIterator(object):
 #         if (self.stack):
 #             return True
 #         return False
-        
+
 
 #     def next(self):
 #         """
