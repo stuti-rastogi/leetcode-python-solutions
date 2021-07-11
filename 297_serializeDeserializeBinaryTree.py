@@ -44,7 +44,6 @@ class Codec:
 
         child = 1
         left_child = True
-        fetch_new_node = True
         while child < traversal_len:
             if left_child:
                 curr_node = node_queue.pop(0)
