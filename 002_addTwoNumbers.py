@@ -14,7 +14,7 @@ class Solution(object):
         result = ListNode(0)
         head = result
         carry = 0
-        
+
         while (l1 or l2):
             addition = 0
             if l1:
