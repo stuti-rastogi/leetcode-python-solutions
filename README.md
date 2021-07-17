@@ -281,4 +281,7 @@ Solving problems from [Leetcode](https://leetcode.com/), mainly in Python. The p
 | 271 | 721 | [Accounts Merge](https://leetcode.com/problems/accounts-merge/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/721_accountsMerge.py)| Medium | Facebook, Google, Microsoft, Amazon, Apple, LinkedIn, Uber, Bloomberg |
  :lock: 272 | 489 | [Robot Room Cleaner](https://leetcode.com/problems/robot-room-cleaner/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/LockedQuestions/489_robotRoomCleaner.py)| Hard | Google, Microsoft, Facebook, Amazon |
  | 273 | 735 | [Asteroid Collision](https://leetcode.com/problems/asteroid-collision/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/735_asteroidCollision.py)| Medium | Google, Amazon, Microsoft |
+ | 274 | 951 | [Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/951_flipEquivalentBinaryTrees.py)| Medium | Google, Microsoft, Amazon, Apple |
+ | 275 | 1776 | [Car Fleet II](https://leetcode.com/problems/car-fleet-ii/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/1776_carFleet2.py)| Hard | Google |
+ | 276 | 652 | [Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/652_findDuplicateSubtrees.py)| Medium | Google, Amazon, Microsoft, Bloomberg |
  
