@@ -284,4 +284,7 @@ Solving problems from [Leetcode](https://leetcode.com/), mainly in Python. The p
  | 274 | 951 | [Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/951_flipEquivalentBinaryTrees.py)| Medium | Google, Microsoft, Amazon, Apple |
  | 275 | 1776 | [Car Fleet II](https://leetcode.com/problems/car-fleet-ii/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/1776_carFleet2.py)| Hard | Google |
  | 276 | 652 | [Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/652_findDuplicateSubtrees.py)| Medium | Google, Amazon, Microsoft, Bloomberg |
+ | 277 | 1706 | [Where Will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/1706_whereWillBallFall.py)| Medium | Google |
+ | 278 | 1526 | [Minimum Number of Increments on Subarrays to Form a Target Array](https://leetcode.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/1526_minIncrementsToReachTargetArray.py)| Hard | Google |
+ | 279 | 1642 | [Furthest Building You Can Reach](https://leetcode.com/problems/furthest-building-you-can-reach/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/1642_furthestBuildingReachable.py)| Medium | Google, Bloomberg |
  
