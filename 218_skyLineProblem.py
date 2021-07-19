@@ -31,7 +31,7 @@ class Solution:
         i = 0
         numBuildings = len(LRH)
 
-        # sorted(criticalPoints) is not a list
+        # sorted(criticalPoints) is now a list
         for point in sorted(criticalPoints):
             # all rectangles that started before this CP can determine its height
             while (i < numBuildings) and (LRH[i][0] <= point):
@@ -55,4 +55,6 @@ class Solution:
                 # combine same height CPs
                 if (h != result[-1][1]):
                     result.append([point, h])
+
         return result
+

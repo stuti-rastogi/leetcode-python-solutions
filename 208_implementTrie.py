@@ -2,9 +2,8 @@ class TrieNode:
     def __init__(self):
         self.children = collections.defaultdict(TrieNode)
         self.isEnd = False
-        
-class Trie:
 
+class Trie:
     def __init__(self):
         """
         Initialize your data structure here.

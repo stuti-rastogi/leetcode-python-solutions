@@ -19,6 +19,8 @@ class Solution:
         queue.append((beginWord, [beginWord]))
         visited = set([beginWord])
 
+        # stop when we found paths at one level that lead to endword
+        # because we only want shortest paths
         while queue and not ans:
             length = len(queue)
             localVisited = set()

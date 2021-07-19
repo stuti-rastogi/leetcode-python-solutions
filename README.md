@@ -290,4 +290,6 @@ Solving problems from [Leetcode](https://leetcode.com/), mainly in Python. The p
  | 280 | 1834 | [Single-Threaded CPU](https://leetcode.com/problems/single-threaded-cpu/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/1834_singleThreadedCPU.py)| Medium | Google |
  | 281 | 126 | [Word Ladder II](https://leetcode.com/problems/word-ladder-ii/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/126_wordLadder2.py)| Hard | Amazon, Facebook, Uber, Google, Bloomberg, Microsoft, LinkedIn, Apple |
  | 282 | 564 | [Find the Closest Palindrome](https://leetcode.com/problems/find-the-closest-palindrome/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/564_findClosestPalindrome.py)| Hard | Microsoft, Amazon, Apple |
+ | 283 | 731 | [My Calendar II](https://leetcode.com/problems/my-calendar-ii/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/731_myCalendar2.py)| Medium | Google, Microsoft, Bloomberg, Amazon |
+ | 284 | 732 | [My Calendar III](https://leetcode.com/problems/my-calendar-iii/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/732_myCalendar3.py)| Hard | Google, Facebook, Amazon |
  
