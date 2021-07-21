@@ -2,35 +2,39 @@
 # This is the interface that allows for creating nested lists.
 # You should not implement it, or speculate about its implementation
 # """
-#class NestedInteger(object):
-#    def isInteger(self):
-#        """
-#        @return True if this NestedInteger holds a single integer, rather than a nested list.
-#        :rtype bool
-#        """
-#
-#    def getInteger(self):
-#        """
-#        @return the single integer that this NestedInteger holds, if it holds a single integer
-#        Return None if this NestedInteger holds a nested list
-#        :rtype int
-#        """
-#
-#    def getList(self):
-#        """
-#        @return the nested list that this NestedInteger holds, if it holds a nested list
-#        Return None if this NestedInteger holds a single integer
-#        :rtype List[NestedInteger]
-#        """
+from typing import List
+
+class NestedInteger(object):
+   def isInteger(self):
+       """
+       @return True if this NestedInteger holds a single integer, rather than a nested list.
+       :rtype bool
+       """
+       pass
+
+   def getInteger(self):
+       """
+       @return the single integer that this NestedInteger holds, if it holds a single integer
+       Return None if this NestedInteger holds a nested list
+       :rtype int
+       """
+       pass
+
+   def getList(self):
+       """
+       @return the nested list that this NestedInteger holds, if it holds a nested list
+       Return None if this NestedInteger holds a single integer
+       :rtype List[NestedInteger]
+       """
+       pass
 
 # no reversing, pop from front
 class NestedIterator:
-    def __init__(self, nestedList: [NestedInteger]):
+    def __init__(self, nestedList: List[NestedInteger]):
         self.stack = nestedList
 
     def next(self) -> int:
         return self.stack.pop(0)
-
 
     def hasNext(self) -> bool:
         while self.stack:
@@ -54,7 +58,7 @@ class NestedIterator:
 #         :rtype: int
 #         """
 #         return self.mainList.pop().getInteger()
-        
+
 
 #     def hasNext(self):
 #         """
@@ -66,7 +70,7 @@ class NestedIterator:
 #                 return True
 #             self.mainList = self.mainList[:-1] + top.getList()[::-1]
 #         return False
-        
+
 
 # Your NestedIterator object will be instantiated and called as such:
 # i, v = NestedIterator(nestedList), []

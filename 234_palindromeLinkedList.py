@@ -23,7 +23,7 @@ class Solution(object):
         #         return False
         #     curr = curr.next
         # return True
-        
+
         # O(1) space solution
         if not head or not head.next:
             return True
@@ -33,7 +33,7 @@ class Solution(object):
         while curr.next:
             curr = curr.next
             count = count + 1
-            
+
         # reversing first half of list
         p = head
         curr = head
@@ -41,19 +41,19 @@ class Solution(object):
         while half > 0:
             tmp = p.next
             if p != head:
-                 p.next = curr 
+                 p.next = curr
             else:
                 p.next = None
             curr = p
             p = tmp
             half -= 1
-        
+
         # pointer to beginning of second half
         if count % 2 == 0:
             secondHalf = p
         else:
             secondHalf = p.next
-        
+
         # curr was last element of first half
         p = curr
         while p:

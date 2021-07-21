@@ -17,7 +17,7 @@ class Solution:
 
         return positions
 
-    def crush(self, board, numRows, numCols, positions):
+    def crush(self, board, positions):
         for (row, col) in positions:
             board[row][col] = 0
 
@@ -43,7 +43,7 @@ class Solution:
             if not positions:
                 break
 
-            self.crush(board, numRows, numCols, positions)
+            self.crush(board, positions)
             self.fall(board, numRows, numCols)
 
         return board
