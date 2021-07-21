@@ -9,3 +9,8 @@ https://leetcode.com/problems/analyze-user-website-visit-pattern/
 https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/
 https://leetcode.com/problems/maximum-units-on-a-truck/
 https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/
+https://leetcode.com/problems/design-a-leaderboard/
+https://leetcode.com/problems/student-attendance-record-ii/
+https://leetcode.com/problems/brace-expansion/
+https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/
+https://leetcode.com/problems/swap-nodes-in-pairs/

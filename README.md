@@ -292,4 +292,6 @@ Solving problems from [Leetcode](https://leetcode.com/), mainly in Python. The p
  | 282 | 564 | [Find the Closest Palindrome](https://leetcode.com/problems/find-the-closest-palindrome/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/564_findClosestPalindrome.py)| Hard | Microsoft, Amazon, Apple |
  | 283 | 731 | [My Calendar II](https://leetcode.com/problems/my-calendar-ii/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/731_myCalendar2.py)| Medium | Google, Microsoft, Bloomberg, Amazon |
  | 284 | 732 | [My Calendar III](https://leetcode.com/problems/my-calendar-iii/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/732_myCalendar3.py)| Hard | Google, Facebook, Amazon |
+ | 285 | 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/1143_longestCommonSubsequence.py)| Medium | Amazon, Google, Facebook, Microsoft, Uber |
+ | 286 | 551 | [Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/551_studentAttendanceRecord1.py)| Easy | Google |
  
