@@ -2,24 +2,24 @@
 #     def dfs(self, board, i, j, word):
 #         if (len(word) == 0):
 #             return True
-        
+
 #         m = len(board)
 #         n = len(board[0])
-        
+
 #         if (i < 0 or i >= m or j < 0 or j >= n):
 #             return False
 #         if (word[0] != board[i][j]):
 #             return False
-        
+
 #         curr = board[i][j]
 #         board[i][j] = '*'         # to avoid checking again
-        
+
 #         # check all 4 directions
 #         result = self.dfs(board, i+1, j, word[1:]) or self.dfs(board, i-1, j, word[1:]) or self.dfs(board, i, j+1, word[1:]) or self.dfs(board, i, j-1, word[1:])
-        
+
 #         board[i][j] = curr
 #         return result
-    
+
 #     def exist(self, board, word):
 #         """
 #         :type board: List[List[str]]
@@ -28,14 +28,15 @@
 #         """
 #         if (not board or not word):
 #             return False
-        
+
 #         for i in range(len(board)):
 #             for j in range(len(board[0])):
 #                 if (board[i][j] == word[0]):
 #                     if (self.dfs(board, i, j, word)):
 #                         return True
-        
-#         return False  
+
+#         return False
+
 
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:

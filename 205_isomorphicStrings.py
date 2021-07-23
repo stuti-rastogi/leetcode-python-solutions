@@ -5,10 +5,10 @@ class Solution:
         :type t: str
         :rtype: bool
         """
-        
+
         # mapping = {}
         # for i in range(len(s)):
-        #     for key, value in mapping.items():  
+        #     for key, value in mapping.items():
         #         if (key == s[i]):
         #             if (value != t[i]):
         #                 return False
@@ -18,7 +18,7 @@ class Solution:
         #                     return False
         #     mapping[s[i]] = t[i]
         # return True
-        
+
         l = len(s)
         if l != len(t):
             return False
@@ -29,7 +29,7 @@ class Solution:
             else:
                 if d[letter] != t[i]:
                     return False
-        
+
         d2 = {}  #mapping
         for i, letter in enumerate(t):
             if letter not in d2.keys():
@@ -38,5 +38,3 @@ class Solution:
                 if d2[letter] != s[i]:
                     return False
         return True
-        
-        

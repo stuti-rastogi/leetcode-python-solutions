@@ -24,7 +24,7 @@ class Solution:
         numWords = len(line)
         countSpaces = numWords - 1
 
-        # both these cases need left justification
+        # if not both these cases, then need left justification
         if numWords > 1 and idx != numLines-1:
             minSpace = spaces // countSpaces
             remainingSpaces = spaces - (minSpace * countSpaces)

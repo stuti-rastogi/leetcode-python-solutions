@@ -14,3 +14,8 @@ https://leetcode.com/problems/student-attendance-record-ii/
 https://leetcode.com/problems/brace-expansion/
 https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/
 https://leetcode.com/problems/swap-nodes-in-pairs/
+https://leetcode.com/problems/count-complete-tree-nodes/
+https://leetcode.com/problems/reverse-nodes-in-k-group/
+https://leetcode.com/problems/sentence-screen-fitting/
+https://leetcode.com/problems/evaluate-division/
+https://leetcode.com/problems/intersection-of-two-arrays/

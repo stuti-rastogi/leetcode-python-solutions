@@ -12,7 +12,7 @@ class Solution:
         # for l in lists:
         #     if l:
         #         minPriorityQueue.put((l.val, id(l), l))
-            
+
         # curr = head = ListNode(0)
         # while not minPriorityQueue.empty():
         #     value, _, node = minPriorityQueue.get()
@@ -29,11 +29,12 @@ class Solution:
             while l:
                 allNodes.append(l.val)
                 l = l.next
-                
+
         allNodes.sort()
         curr = head = ListNode(0)
         for value in allNodes:
             curr.next = ListNode(value)
             curr = curr.next
-            
+
         return head.next
+
