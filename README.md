@@ -294,4 +294,6 @@ Solving problems from [Leetcode](https://leetcode.com/), mainly in Python. The p
  | 284 | 732 | [My Calendar III](https://leetcode.com/problems/my-calendar-iii/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/732_myCalendar3.py)| Hard | Google, Facebook, Amazon |
  | 285 | 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/1143_longestCommonSubsequence.py)| Medium | Amazon, Google, Facebook, Microsoft, Uber |
  | 286 | 551 | [Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/551_studentAttendanceRecord1.py)| Easy | Google |
+ | 287 | 203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/203_removeLinkedListElements.py)| Easy | Facebook, Amazon, Google, Bloomberg, Apple, Microsoft |
+ | 288 | 110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/110_balancedBinaryTree.py)| Easy | Amazon, Facebook, Google, Microsoft, Bloomberg, Adobe |
  
