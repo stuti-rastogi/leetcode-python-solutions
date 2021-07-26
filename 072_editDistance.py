@@ -15,7 +15,7 @@ class Solution:
         #             minimumChanges[i][j] = minimumChanges[i-1][j-1]
         #         else:
         #             minimumChanges[i][j] = 1 + min(
-        #                                     minimumChanges[i-1][j-1], 
+        #                                     minimumChanges[i-1][j-1],
         #                                     minimumChanges[i][j-1],
         #                                     minimumChanges[i-1][j]
         #                                     )
@@ -25,10 +25,9 @@ class Solution:
         # Optimized - only O(n) storage
         word1Len = len(word1)
         word2Len = len(word2)
-        
+
         minimumChanges = [[0 for _ in range(word2Len+1)] for _ in range(2)]
-        
-        
+
         for i in range(word1Len+1):
             for j in range(word2Len+1):
                 if i == 0:
@@ -39,11 +38,11 @@ class Solution:
                     minimumChanges[i%2][j] = minimumChanges[(i-1)%2][j-1]
                 else:
                     minimumChanges[i%2][j] = 1 + min(
-                                            minimumChanges[(i-1)%2][j-1], 
+                                            minimumChanges[(i-1)%2][j-1],
                                             minimumChanges[i%2][j-1],
                                             minimumChanges[(i-1)%2][j]
                                             )
-                    
+
         return minimumChanges[word1Len%2][word2Len]
 
         # Recursive
