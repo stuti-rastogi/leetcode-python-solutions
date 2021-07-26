@@ -296,4 +296,6 @@ Solving problems from [Leetcode](https://leetcode.com/), mainly in Python. The p
  | 286 | 551 | [Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/551_studentAttendanceRecord1.py)| Easy | Google |
  | 287 | 203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/203_removeLinkedListElements.py)| Easy | Facebook, Amazon, Google, Bloomberg, Apple, Microsoft |
  | 288 | 110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/110_balancedBinaryTree.py)| Easy | Amazon, Facebook, Google, Microsoft, Bloomberg, Adobe |
+ | 289 | 937 | [Reorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/937_reorderDataInLogfiles.py)| Easy | Amazon, Google |
+ | 290 | 973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | [Python](https://github.com/stuti-rastogi/leetcodesolutions/blob/master/973_kClosestPointsToOrigin.py)| Medium | Facebook, Amazon, Google, Microsoft, LinkedIn, Uber, Apple, Goldman Sachs |
  

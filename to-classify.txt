@@ -3,20 +3,25 @@
 Due to laptop malfunction, able to solve questions but not able to push to GitHub
 Keeping track of leetcode questions that need to be added to GitHub later:
 
-https://leetcode.com/problems/reorder-data-in-log-files/
-https://leetcode.com/problems/k-closest-points-to-origin
-https://leetcode.com/problems/analyze-user-website-visit-pattern/
 https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/
 https://leetcode.com/problems/maximum-units-on-a-truck/
-https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/
-https://leetcode.com/problems/design-a-leaderboard/
 https://leetcode.com/problems/student-attendance-record-ii/
-https://leetcode.com/problems/brace-expansion/
+https://leetcode.com/problems/queue-reconstruction-by-height/
+
 https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/
 https://leetcode.com/problems/swap-nodes-in-pairs/
 https://leetcode.com/problems/count-complete-tree-nodes/
 https://leetcode.com/problems/reverse-nodes-in-k-group/
-https://leetcode.com/problems/sentence-screen-fitting/
+
 https://leetcode.com/problems/evaluate-division/
 https://leetcode.com/problems/intersection-of-two-arrays/
 https://leetcode.com/problems/number-of-matching-subsequences
+
+
+Locked
+
+https://leetcode.com/problems/analyze-user-website-visit-pattern/
+https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/
+https://leetcode.com/problems/design-a-leaderboard/
+https://leetcode.com/problems/brace-expansion/
+https://leetcode.com/problems/sentence-screen-fitting/
