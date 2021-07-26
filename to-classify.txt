@@ -16,12 +16,3 @@ https://leetcode.com/problems/reverse-nodes-in-k-group/
 https://leetcode.com/problems/evaluate-division/
 https://leetcode.com/problems/intersection-of-two-arrays/
 https://leetcode.com/problems/number-of-matching-subsequences
-
-
-Locked
-
-https://leetcode.com/problems/analyze-user-website-visit-pattern/
-https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/
-https://leetcode.com/problems/design-a-leaderboard/
-https://leetcode.com/problems/brace-expansion/
-https://leetcode.com/problems/sentence-screen-fitting/
