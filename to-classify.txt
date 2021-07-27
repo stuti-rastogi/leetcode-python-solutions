@@ -7,8 +7,3 @@ https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/
 https://leetcode.com/problems/maximum-units-on-a-truck/
 https://leetcode.com/problems/student-attendance-record-ii/
 https://leetcode.com/problems/queue-reconstruction-by-height/
-
-https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/
-https://leetcode.com/problems/swap-nodes-in-pairs/
-https://leetcode.com/problems/count-complete-tree-nodes/
-https://leetcode.com/problems/reverse-nodes-in-k-group/
