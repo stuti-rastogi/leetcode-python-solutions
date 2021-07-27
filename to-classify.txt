@@ -12,7 +12,3 @@ https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination
 https://leetcode.com/problems/swap-nodes-in-pairs/
 https://leetcode.com/problems/count-complete-tree-nodes/
 https://leetcode.com/problems/reverse-nodes-in-k-group/
-
-https://leetcode.com/problems/evaluate-division/
-https://leetcode.com/problems/intersection-of-two-arrays/
-https://leetcode.com/problems/number-of-matching-subsequences
